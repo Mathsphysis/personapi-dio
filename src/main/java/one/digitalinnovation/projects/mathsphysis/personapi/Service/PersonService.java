@@ -60,10 +60,10 @@ public class PersonService {
         return getMessageResponseDTO("Updated Person with ID: ", updatedPerson.getId());
     }
 
-    private MessageResponseDTO getMessageResponseDTO(String s, Long id) {
+    private MessageResponseDTO getMessageResponseDTO(String message, Long id) {
         return MessageResponseDTO
                 .builder()
-                .message(s + id)
+                .message(message + id)
                 .build();
     }
 
