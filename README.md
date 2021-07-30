@@ -7,6 +7,9 @@ repository built using H2.</h3>
 This project explores several concepts including:
     
 - MVC pattern
+- REST API
+- H2 Repository
+- JPA and Hibernate for DAO
 - CRUD operations
 - DTO for Marshalling and Single Responsibility Principle Compliance
 - MapStruct for DTO to Entity and vice-versa convention over configuration mapping
