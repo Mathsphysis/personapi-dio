@@ -11,6 +11,8 @@ This project explores several concepts including:
 - DTO for Marshalling and Single Responsibility Principle Compliance
 - MapStruct for DTO to Entity and vice-versa convention over configuration mapping
 - Git Flow and Conventional Commits tools for code versioning
+- Deploying on Heroku
+- API endpoints testing with Postman
 - etc...
 
 <hr>
