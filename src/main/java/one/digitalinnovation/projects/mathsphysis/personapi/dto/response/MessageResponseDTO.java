@@ -1,4 +1,4 @@
-package one.digitalinnovation.projects.mathsphysis.personapi.dto;
+package one.digitalinnovation.projects.mathsphysis.personapi.dto.response;
 
 import lombok.Builder;
 import lombok.Data;
