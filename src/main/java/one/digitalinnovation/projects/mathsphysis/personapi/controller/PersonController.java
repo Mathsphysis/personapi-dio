@@ -1,6 +1,7 @@
 package one.digitalinnovation.projects.mathsphysis.personapi.controller;
 
 
+import lombok.AllArgsConstructor;
 import one.digitalinnovation.projects.mathsphysis.personapi.Service.PersonService;
 import one.digitalinnovation.projects.mathsphysis.personapi.dto.request.PersonDTO;
 import one.digitalinnovation.projects.mathsphysis.personapi.dto.response.MessageResponseDTO;
@@ -14,14 +15,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/people")
+@AllArgsConstructor(onConstructor = @__(@Autowired))
 public class PersonController {
 
     private PersonService personService;
-
-    @Autowired
-    public PersonController(PersonService personService) {
-        this.personService = personService;
-    }
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)

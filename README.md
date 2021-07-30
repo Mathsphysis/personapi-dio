@@ -7,9 +7,10 @@ repository built using H2.</h3>
 This project explores several concepts including:
     
 - MVC pattern
+- REST API
 - CRUD operations
-- DTO for Marshalling and Single Responsibility Principle Compliance
-- MapStruct for DTO to Entity and vice-versa convention over configuration mapping
+- DTO for Data Conversion and Single Responsibility Principle Compliance
+- MapStruct for DTO to Entity and vice-versa for convention over configuration mapping
 - Git Flow and Conventional Commits tools for code versioning
 - etc...
 
