@@ -7,8 +7,6 @@ repository built using H2. Project currently deployed to Heroku.</h3>
 
 <h2>PostMan testing(https://www.getpostman.com/collections/2d963d8b868feaac9e97)</h2>
 
-<h2>Heroku API Page (https://personapi-dio-mathsphysis.herokuapp.com)(DOWN)</h2>
-
 <hr>
 
 This project explores several concepts including:
